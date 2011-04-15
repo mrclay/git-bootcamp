@@ -31,3 +31,5 @@ $app = new MrClay_QAD_App(array(
 ));
 $app->controllerInvokeArgs['displayExceptions'] = true;
 $app->run();
+
+// hello!
