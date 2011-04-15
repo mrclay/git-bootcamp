@@ -7,6 +7,10 @@ Coe_Loader::prependIncludePath(__DIR__ . '/lib');
 
 function layout_layout(Zend_View $view)
 {
+    ?>
+<!doctype html><title>Hello</title>
+<body>
+    <?php
     echo $view->layout()->content;
     echo "<hr>";
     $links = array();
@@ -23,6 +27,7 @@ function layout_layout(Zend_View $view)
     }
     echo "<h4>Other awesome people:</h4><ul>" . implode('', $links) . "</ul>";
     echo "<p>Also see the <a href='$baseUrl/README.txt'>README</a>.</p>";
+    echo "</body>";
 }
 
 $app = new MrClay_QAD_App(array(
