@@ -7,3 +7,4 @@ Campers, add your name to the list below:
 * Steve
 * Deepa
 * Ben
+* Nick
